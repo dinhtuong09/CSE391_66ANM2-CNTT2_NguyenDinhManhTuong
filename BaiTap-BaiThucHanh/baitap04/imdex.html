@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Employee Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h3>Basic Info</h3>
+
+        <div class="form-group">
+            <label>Employee ID</label>
+            <p>9</p>
+        </div>
+
+        <div class="form-group">
+            <label>Last Name</label>
+            <p>Dodsworth</p>
+        </div>
+
+        <div class="form-group">
+            <label>First Name</label>
+            <input type="text" value="Anne">
+        </div>
+
+        <div class="form-group radio-group">
+            <label>Gender</label>
+                <div class="checkbox-group">
+                <label ><input type="radio" name="gender"> Male</label>
+                <label ><input type="radio" name="gender"> Female</label>
+                <label ><input type="radio" name="gender" checked> XXX</label>
+                <label ><input type="radio" name="gender"> ZZZ</label>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label>Title</label>
+            <input type="text" value="Sales Representative">
+        </div>
+
+        <div class="form-group">
+            <label>Suffix</label>
+            <input type="text" value="Ms.">
+        </div>
+
+        <div class="form-group">
+            <label>BirthDate</label>
+            <input type="date">
+        </div>
+
+        <div class="form-group">
+            <label>HireDate</label>
+            <input type="date">
+        </div>
+
+        <div class="form-group">
+            <label>Reports To</label>
+            <select>
+                <option>Buchanan</option>
+                <option>Fuller</option>
+            </select>
+        </div>
+
+        <h3>Contact Info</h3>
+
+        <div class="form-group">
+            <label>Email</label>
+            <input type="email" placeholder="name@example.com">
+        </div>
+
+        <div class="form-group">
+            <label>Address</label>
+            <input type="text" value="7 Houndstooth Rd.">
+        </div>
+
+        <div class="form-group">
+            <label>City</label>
+            <input type="text" value="London">
+        </div>
+
+        <div class="form-group">
+            <label>Region</label>
+            <input type="text">
+        </div>
+
+        <div class="form-group">
+            <label>Postal Code</label>
+            <input type="text" value="WG2 7LT">
+        </div>
+
+        <div class="form-group">
+            <label>Country</label>
+            <select>
+                <option>Russian Federation</option>
+                <option>Vietnam</option>
+                <option>USA</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label>US Home Phone</label>
+            <input type="text" value="(234)234-2342">
+        </div>
+
+        <h3>Optional Info</h3>
+
+        <div class="form-group">
+            <label>Notes</label>
+            <textarea>Anne has a BA degree in English.She is fluent in French and German.</textarea>
+        </div>
+
+        <div class="form-group">
+            <label>Preferred Shift</label>
+            <div class="checkbox-group">
+                <label ><input type="checkbox"> Regular</label>
+                <label ><input type="checkbox" checked> Gray Yard </label>
+                
+            </div>
+            
+        </div>
+        <div class="form-group">
+            <label>Active?</label>
+            <label ><input type="checkbox"></label>
+        </div>
+        <div class="form-group">
+            <label>Are you human?</label>
+            <input type="text" placeholder="click to change">
+        </div>
+
+        <div class="buttons">
+            <button class="submit">Submit</button>
+            <button class="cancel">Cancel</button>
+        </div>
+
+    </div>
+
+</body>
+</html>
