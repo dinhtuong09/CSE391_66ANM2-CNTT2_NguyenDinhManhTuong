@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<title>HR Management</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<div class="navbar">
+    <div class="nav-left">
+        <h2>HR Management</h2>
+        <a href="#">Home</a>
+        <a href="#">Contact</a>
+    </div>
+
+    <div class="search">
+        <input type="text" placeholder="Search...">
+        <button>Search</button>
+    </div>
+</div>
+
+<!-- MAIN -->
+<div class="container">
+
+<div class="header">
+    <h1>Employee</h1>
+    <button class="add-btn" onclick="openModal()">+ Add</button>
+</div>
+
+<table>
+<tr>
+    <th>ID</th>
+    <th>Name</th>
+    <th>Email</th>
+    <th>Phone</th>
+    <th>Position</th>
+    <th>Action</th>
+</tr>
+
+<tr>
+<td>1</td><td>Fatima Beatriz</td><td>Fatima@gmail.com</td><td>0985674321</td><td>Staff</td>
+<td><button class="edit">Edit</button> <button class="delete">Delete</button></td>
+</tr>
+
+<tr>
+<td>2</td><td>Gabriel Hanna</td><td>Gabriel@gmail.com</td><td>0353674231</td><td>Staff</td>
+<td><button class="edit">Edit</button> <button class="delete">Delete</button></td>
+</tr>
+
+<tr>
+<td>3</td><td>Charles Diya</td><td>Charles@gmail.com</td><td>0347658833</td><td>Staff</td>
+<td><button class="edit">Edit</button> <button class="delete">Delete</button></td>
+</tr>
+
+<tr>
+<td>4</td><td>Frank Lamdo</td><td>Frank@gmail.com</td><td>0975444768</td><td>Manager</td>
+<td><button class="edit">Edit</button> <button class="delete">Delete</button></td>
+</tr>
+
+<tr>
+<td>5</td><td>Louis Tom</td><td>Louis@gmail.com</td><td>0789568223</td><td>Staff</td>
+<td><button class="edit">Edit</button> <button class="delete">Delete</button></td>
+</tr>
+
+</table>
+</div>
+
+<!-- MODAL -->
+<div class="modal" id="modal">
+<div class="modal-content">
+
+<div class="modal-header">
+    <h3>New Employee</h3>
+    <span style="cursor:pointer" onclick="closeModal()">✖</span>
+</div>
+
+<div class="modal-body">
+    <div class="grid">
+        <input placeholder="Name">
+        <input placeholder="Email">
+        <input placeholder="Phone">
+        <select>
+            <option>-- Select Position --</option>
+            <option>Staff</option>
+            <option>Manager</option>
+            <option>CEO</option>
+        </select>
+    </div>
+
+    <p>Sex</p>
+    <label><input type="radio" name="sex"> Male</label>
+    <label><input type="radio" name="sex"> Female</label>
+</div>
+
+<div class="modal-footer">
+    <button class="save">Save</button>
+    <button class="cancel" onclick="closeModal()">Cancel</button>
+</div>
+
+</div>
+</div>
+
+<script>
+function openModal(){
+    document.getElementById("modal").style.display="flex";
+}
+
+function closeModal(){
+    document.getElementById("modal").style.display="none";
+}
+</script>
+
+</body>
+</html>
