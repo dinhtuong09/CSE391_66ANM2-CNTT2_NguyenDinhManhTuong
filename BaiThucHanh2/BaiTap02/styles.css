@@ -1,0 +1,143 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  background-color: #2f0641;
+}
+
+/* ================= HEADER ================= */
+
+header {
+  position: absolute;
+  width: 100%;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
+}
+
+#page-logo a {
+  font-family: "Oleo Script", cursive;
+  font-size: 28px;
+  color: rgb(255, 214, 0);
+  text-decoration: none;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgb(255, 214, 0);
+  font-weight: bold;
+}
+
+/* ================= HERO ================= */
+
+#hero {
+  height: 600px;
+  background-image: url("assets/extra-files/ocean.jpg"); /* chỉnh lại đúng đường dẫn */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#hero-content {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 40px 60px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#hero-content h1 {
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-size: 36px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+#hero-content p {
+  color: white;
+  margin-bottom: 20px;
+}
+
+#hero-content a {
+  background-color: rgb(255, 214, 0);
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+/* ================= HIGHLIGHTS ================= */
+
+#highlights {
+  background-color: rgb(227, 255, 253);
+  padding: 40px 0;
+  text-align: center;
+  
+}
+
+#highlights h2 {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+#destinations {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  list-style: none;
+  margin: 0 80px;
+}
+
+.destination {
+  flex: 1;
+}
+
+.destination img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.destination p {
+  margin-top: 10px;
+}
+
+.destination strong {
+  color: rgb(0, 160, 117);
+}
+
+/* ================= FOOTER ================= */
+
+footer {
+  background-color: black;
+  padding: 20px 0;
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  list-style: none;
+}
+
+footer img {
+  width: 30px;
+}
