@@ -45,7 +45,7 @@ nav a {
 
 #hero {
   height: 600px;
-  background-image: url("assets/extra-files/ocean.jpg"); /* chỉnh lại đúng đường dẫn */
+  background-image: url("assets/extra-files/ocean.jpg"); 
   background-size: cover;
   background-position: center;
   display: flex;
