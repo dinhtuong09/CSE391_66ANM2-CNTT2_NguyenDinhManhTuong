@@ -108,11 +108,11 @@ typeof isStudent;
 
 > Câu hỏi:
 > - Kết quả `typeof age` là gì?
-  ->'number'
+>   - `number`
 > - Kết quả `typeof name` là gì?
-  ->'string'
+>   - `string`
 > - Kết quả `typeof isStudent` là gì?
-  ->'boolean'
+>   - `boolean`
 > - Em hãy tự mô tả ngắn gọn:
 >   - `number` là: kiểu dữ liệu dùng để lưu các giá trị số.
 >   - `string` là: kiểu dữ liệu dùng để lưu chuỗi ký tự hoặc văn bản.
