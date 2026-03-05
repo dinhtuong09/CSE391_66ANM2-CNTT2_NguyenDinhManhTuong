@@ -70,9 +70,9 @@ console.log("Hello from JavaScript!");
 
 > Câu hỏi:
 > - Em thấy dòng thông báo nào trong console?
-> - "Hello from JavaScript!"
+>  - "Hello from JavaScript!"
 > - Điều này cho em biết JavaScript đang làm gì khi trang web được tải?
-> - JavaScript đang chạy và thực thi mã khi trang web được tải.
+>  - JavaScript đang chạy và thực thi mã khi trang web được tải.
 ---
 
 #### Bước 2:  “JavaScript là gì?” (Tra cứu nhanh)
