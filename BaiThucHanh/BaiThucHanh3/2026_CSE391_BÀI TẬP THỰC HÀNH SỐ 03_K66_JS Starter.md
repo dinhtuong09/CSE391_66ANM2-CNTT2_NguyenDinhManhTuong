@@ -70,9 +70,9 @@ console.log("Hello from JavaScript!");
 
 > Câu hỏi:
 > - Em thấy dòng thông báo nào trong console?
->  - "Hello from JavaScript!"
+>   - "Hello from JavaScript!"
 > - Điều này cho em biết JavaScript đang làm gì khi trang web được tải?
->  - JavaScript đang chạy và thực thi mã khi trang web được tải.
+>   - JavaScript đang chạy và thực thi mã khi trang web được tải.
 ---
 
 #### Bước 2:  “JavaScript là gì?” (Tra cứu nhanh)
@@ -80,7 +80,7 @@ console.log("Hello from JavaScript!");
 Sử dụng 1–2 nguồn tài liệu (vd. W3Schools, freeCodeCamp, …), tóm tắt:
 
 > a) JavaScript chạy ở đâu? (Trình duyệt / Server / Cả hai?)
-  -> cả hai
+>   - cả hai
 > b) HTML, CSS, JavaScript mỗi phần chịu trách nhiệm chính về điều gì?
 >
 > - HTML: tạo cấu trúc và nội dung của trang web (ví dụ: tiêu đề, đoạn văn, hình ảnh, nút bấm) = Khung xương trang web.
@@ -140,18 +140,18 @@ Sau đó:
 
 > Câu hỏi:
 > - Dòng log hiển thị gì sau khi em sửa thông tin?
-  ->Xin chào, mình là Tường, năm nay mình 20 tuổi.
+>   - Xin chào, mình là Tường, năm nay mình 20 tuổi.
 > - Nếu em quên dấu `;` hoặc quên dấu `+`, điều gì xảy ra? Trình duyệt báo lỗi thế nào?
-  -> JavaScript thường vẫn chạy được vì JS có cơ chế tự thêm dấu ';'.Nếu quên dấu + khi nối chuỗi thì trình duyệt sẽ báo lỗi SyntaxError trong Console và chương trình không chạy.
+>   -  JavaScript thường vẫn chạy được vì JS có cơ chế tự thêm dấu ';'.Nếu quên dấu + khi nối chuỗi thì trình duyệt sẽ báo lỗi SyntaxError trong Console và chương trình không chạy.
 
 ---
 
 #### Bước 5: Phản tư nhanh (Reflection)
 
 > - Điều thú vị nhất em vừa khám phá được về console là gì?
-  -> Điều thú vị nhất là em có thể gõ trực tiếp code JavaScript trong Console và xem kết quả ngay lập tức mà không cần sửa file rồi chạy lại trang web.
+>   -  Điều thú vị nhất là em có thể gõ trực tiếp code JavaScript trong Console và xem kết quả ngay lập tức mà không cần sửa file rồi chạy lại trang web.
 > - Em gặp lỗi cú pháp nào? Em đã xử lý bằng cách nào (tự sửa, hỏi bạn, đọc lỗi, tìm Google, …)?
-  -> Em gặp lỗi SyntaxError khi viết thiếu dấu " trong chuỗi và thiếu dấu + khi nối chuỗi. Em đã đọc thông báo lỗi trong Console và sửa lại code cho đúng, sau đó reload trang để kiểm tra lại.
+>   -  Em gặp lỗi SyntaxError khi viết thiếu dấu " trong chuỗi và thiếu dấu + khi nối chuỗi. Em đã đọc thông báo lỗi trong Console và sửa lại code cho đúng, sau đó reload trang để kiểm tra lại.
 
 ---
 
@@ -210,13 +210,11 @@ Sau đó:
 #### Bước 2: Mô tả lại if/else bằng lời
 
 > - Khi nào chương trình in `"Giỏi"`?
-  ->Chương trình in "Giỏi" khi điểm score lớn hơn hoặc bằng 8.
+>   - Chương trình in "Giỏi" khi điểm score lớn hơn hoặc bằng 8.
 > - Khi nào chương trình in `"Yếu"`?
-  ->Chương trình in "Yếu" khi điểm score nhỏ hơn 5.
+>   - Chương trình in "Yếu" khi điểm score nhỏ hơn 5.
 > - Em hãy mô tả cấu trúc `if/else` bằng lời của em (có thể ví von “ngã rẽ” trong đời sống):
-
-  ->Cấu trúc if/else giống như các ngã rẽ khi đưa ra quyết định.
-Chương trình sẽ kiểm tra từng điều kiện từ trên xuống dưới. Nếu điều kiện nào đúng thì thực hiện lệnh trong khối đó và không kiểm tra các điều kiện phía sau nữa. Nếu tất cả điều kiện đều sai thì chương trình sẽ chạy phần else cuối cùng.
+>   - Cấu trúc if/else giống như các ngã rẽ khi đưa ra quyết định.Chương trình sẽ kiểm tra từng điều kiện từ trên xuống dưới. Nếu điều kiện nào đúng thì thực hiện lệnh trong khối đó và không kiểm tra các điều kiện phía sau nữa. Nếu tất cả điều kiện đều sai thì chương trình sẽ chạy phần else cuối cùng.
 ---
 
 #### Bước 3: Làm việc với hàm
@@ -289,9 +287,9 @@ Gọi thử: `kiemTraTuoi(16);`, `kiemTraTuoi(20);`.
 #### Bước 5: Phản tư
 
 > - Phần nào trong if/else hoặc hàm khiến em khó hiểu nhất?
--> Phần em thấy khó hiểu nhất là cách các điều kiện trong if / else if / else được kiểm tra theo thứ tự và khi một điều kiện đúng thì chương trình sẽ không kiểm tra các điều kiện phía sau nữa.
+>   - Phần em thấy khó hiểu nhất là cách các điều kiện trong if / else if / else được kiểm tra theo thứ tự và khi một điều kiện đúng thì chương trình sẽ không kiểm tra các điều kiện phía sau nữa.
 > - Em đã làm gì để vượt qua (thử nhiều lần, hỏi bạn, xem lại ví dụ, tra Google, …)?
--> Em đã thử thay đổi các giá trị nhiều lần và chạy lại chương trình để xem kết quả trong Console, đồng thời đọc lại ví dụ trong bài và xem thông báo lỗi để hiểu rõ hơn.
+>   - Em đã thử thay đổi các giá trị nhiều lần và chạy lại chương trình để xem kết quả trong Console, đồng thời đọc lại ví dụ trong bài và xem thông báo lỗi để hiểu rõ hơn.
 
 ---
 
@@ -339,7 +337,7 @@ btnHello.addEventListener("click", function () {
 
 > Câu hỏi:
 > - `document.getElementById("status")` đang làm gì?
-->Thêm vào trang (hoặc tạo file mới):
+>   - Thêm vào trang (hoặc tạo file mới):
 
 ```html
 <section>
@@ -380,11 +378,11 @@ btnHello.addEventListener("click", function () {
 > Câu hỏi:
 > - `document.getElementById("status")` đang làm gì?
 > - Sự kiện `"click"` xảy ra khi nào?
--> Dùng để tìm và lấy phần tử HTML có id là "status" trong trang web, sau đó JavaScript có thể thay đổi nội dung hoặc thuộc tính của phần tử đó.
+>   -  Dùng để tìm và lấy phần tử HTML có id là "status" trong trang web, sau đó JavaScript có thể thay đổi nội dung hoặc thuộc tính của phần tử đó.
 > - Sự kiện `"click"` xảy ra khi nào?
--> Sự kiện click xảy ra khi người dùng nhấn chuột vào nút hoặc phần tử trên trang web.
+>   -  Sự kiện click xảy ra khi người dùng nhấn chuột vào nút hoặc phần tử trên trang web.
 > - Trong đoạn code trên, khi nhấn nút `btnHello`, điều gì thay đổi trên trang?
--> Khi nhấn nút "Chào", JavaScript sẽ thay đổi nội dung của đoạn văn có id status thành: Xin chào! Đây là nội dung được thay đổi bằng JavaScript.
+>   - Khi nhấn nút "Chào", JavaScript sẽ thay đổi nội dung của đoạn văn có id status thành: Xin chào! Đây là nội dung được thay đổi bằng JavaScript.
 
 ---
 
@@ -404,7 +402,7 @@ btnRed.addEventListener("click", function () {
 > Câu hỏi:
 > - Em có thể đổi sang màu khác (vd. `lightblue`) không? Hãy thử.
 > - Em hãy ghi lại 1 ví dụ khác mà JavaScript có thể làm với `document.body.style`.
--> Đổi chữ toàn trang: document.body.style.color = "white";
+>   -  Đổi chữ toàn trang: document.body.style.color = "white";
 Tăng kích thước chữ của trang: document.body.style.color = "white";
 
 ---
@@ -425,10 +423,10 @@ nameInput.addEventListener("input", function () {
 
 > Câu hỏi:
 > - Sự kiện `"input"` khác gì so với `"click"`?
--> input xảy ra khi người dùng nhập, xoá hoặc thay đổi nội dung trong ô input. 
--> click xảy ra khi người dùng nhấn chuột vào một nút hoặc phần tử.
+>   - input xảy ra khi người dùng nhập, xoá hoặc thay đổi nội dung trong ô input.
+>   - click xảy ra khi người dùng nhấn chuột vào một nút hoặc phần tử.
 > - Khi em xoá hết nội dung ô input, dòng `greeting` hiển thị gì?
--> Xin chào, !
+>   - Xin chào, !
 
 ---
 
@@ -438,9 +436,9 @@ nameInput.addEventListener("input", function () {
 >
 > Em hãy:
 > - Tự mô tả DOM bằng lời của em:
-->  DOM là cách trình duyệt biểu diễn trang HTML thành các phần tử (object) để JavaScript có thể truy cập, đọc và thay đổi nội dung hoặc kiểu hiển thị của trang web.
+>   - DOM là cách trình duyệt biểu diễn trang HTML thành các phần tử (object) để JavaScript có thể truy cập, đọc và thay đổi nội dung hoặc kiểu hiển thị của trang web.
 > - Nêu 1 ví dụ “thao tác DOM” trong bài (ghi lại 1 dòng lệnh cụ thể).
--> document.getElementById("status");
+>   - document.getElementById("status");
 ---
 
 #### Bước 5: Ảnh kết quả
@@ -476,11 +474,11 @@ $("#btnHello").on("click", function () {
 
 > Câu hỏi:
 > - Điểm giống nhau về chức năng giữa 2 đoạn code trên là gì?
-->Cả hai đoạn code đều gắn sự kiện click cho nút btnHello.
+>   - Cả hai đoạn code đều gắn sự kiện click cho nút btnHello.
 Khi người dùng nhấn vào nút, chương trình sẽ hiển thị thông báo alert trên màn hình.
 > - Điểm khác nhau về cú pháp là gì (`document.getElementById` vs `$("#id")`, `addEventListener` vs `.on`)?
--> document.getElementById("btnHello").addEventListener("click", function () { Phải viết dài hơn để lấy phần tử và gắn sự kiện.
--> $("#btnHello").on("click", function () { Ngắn gọn hơn, dùng ký hiệu $ để chọn phần tử.
+>   - document.getElementById("btnHello").addEventListener("click", function () { Phải viết dài hơn để lấy phần tử và gắn sự kiện.
+>   - $("#btnHello").on("click", function () { Ngắn gọn hơn, dùng ký hiệu $ để chọn phần tử.
 > - Em hãy tra cứu nhanh “What is jQuery used for?” và ghi 2 ý chính:
 >   1. Giúp thao tác với DOM dễ dàng và nhanh hơn (chọn phần tử, thay đổi nội dung, xử lý sự kiện).
 >   2. Giúp viết JavaScript ngắn gọn hơn và tương thích tốt với nhiều trình duyệt.
