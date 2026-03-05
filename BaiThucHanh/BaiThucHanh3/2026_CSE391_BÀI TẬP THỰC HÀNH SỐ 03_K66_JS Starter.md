@@ -82,7 +82,6 @@ Sử dụng 1–2 nguồn tài liệu (vd. W3Schools, freeCodeCamp, …), tóm t
 > a) JavaScript chạy ở đâu? (Trình duyệt / Server / Cả hai?)
 >   - cả hai
 > b) HTML, CSS, JavaScript mỗi phần chịu trách nhiệm chính về điều gì?
->
 > - HTML: tạo cấu trúc và nội dung của trang web (ví dụ: tiêu đề, đoạn văn, hình ảnh, nút bấm) = Khung xương trang web.
 > - CSS: dùng để thiết kế giao diện cho trang web (màu sắc, font chữ, bố cục, kích thước) = Trang trí, làm đẹp.
 > - JavaScript: dùng để tạo chức năng và tương tác cho trang web (xử lý khi nhấn nút, thay đổi nội dung, gửi dữ liệu, hiệu ứng động) = Làm trang web hoạt động và tương tác.
